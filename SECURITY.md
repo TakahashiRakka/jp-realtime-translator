@@ -13,7 +13,7 @@
 
 **请不要通过公开的 issue 报告安全漏洞。**
 
-请改用 GitHub 的 [Security Advisories](https://github.com/<your-github-username>/jp-realtime-translator/security/advisories)
+请改用 GitHub 的 [Security Advisories](https://github.com/TakahashiRakka/jp-realtime-translator/security/advisories)
 私密报告（*"Report a vulnerability"*）。如果无法使用该入口，也可以直接联系维护者。
 
 请在报告中包含：

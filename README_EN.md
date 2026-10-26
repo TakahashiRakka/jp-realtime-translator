@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/downloads/)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D6?logo=windows)](https://www.microsoft.com/windows)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![CI](https://github.com/<your-github-username>/jp-realtime-translator/actions/workflows/ci.yml/badge.svg)](https://github.com/<your-github-username>/jp-realtime-translator/actions/workflows/ci.yml)
+[![CI](https://github.com/TakahashiRakka/jp-realtime-translator/actions/workflows/ci.yml/badge.svg)](https://github.com/TakahashiRakka/jp-realtime-translator/actions/workflows/ci.yml)
 
 > Japanese audio playing on your PC → live Chinese translation + per-word grammar breakdown.
 > No virtual audio cable, no ffmpeg, and your audio never leaves your machine.
@@ -52,7 +52,7 @@ ollama pull qwen3:14b                  # translation + grammar parsing (required
 ### 2. Run it
 
 ```bash
-git clone https://github.com/<your-github-username>/jp-realtime-translator.git
+git clone https://github.com/TakahashiRakka/jp-realtime-translator.git
 cd jp-realtime-translator
 ```
 
@@ -228,7 +228,4 @@ Yes. Just pick the corresponding **microphone** in the device dropdown.
 
 ## License
 
-[MIT License](LICENSE) © 2026 <your-github-username>
-
-> Before publishing, replace `<your-github-username>` with your GitHub handle
-> (it appears in `README.md`, `README_EN.md`, `LICENSE`, and `.github/ISSUE_TEMPLATE/`).
+[MIT License](LICENSE) © 2026 TakahashiRakka

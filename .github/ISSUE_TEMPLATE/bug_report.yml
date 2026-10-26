@@ -9,7 +9,7 @@ body:
         提交前请先确认：
         - 已搜索过现有 issue（含已关闭的）
         - 已更新到最新代码
-        - 已看过 [README 常见问题](https://github.com/<your-github-username>/jp-realtime-translator#常见问题-faq)
+        - 已看过 [README 常见问题](https://github.com/TakahashiRakka/jp-realtime-translator#常见问题-faq)
 
   - type: textarea
     id: what-happened

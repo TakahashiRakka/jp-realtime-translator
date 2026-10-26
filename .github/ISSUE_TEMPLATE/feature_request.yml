@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        先看看 [README 的路线图](https://github.com/<your-github-username>/jp-realtime-translator#路线图)，
+        先看看 [README 的路线图](https://github.com/TakahashiRakka/jp-realtime-translator#路线图)，
         说不定已经在计划里了。
 
   - type: textarea

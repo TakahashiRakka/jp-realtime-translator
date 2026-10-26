@@ -8,7 +8,7 @@
 
 ![Local-first](https://img.shields.io/badge/Privacy-100%25%20本地运行-brightgreen)
 
-![CI](https://github.com/<your-github-username>/jp-realtime-translator/actions/workflows/ci.yml/badge.svg)
+![界面预览](docs/screenshot.png)
 
 > 电脑里正在播放日语 —— 屏幕上同步出现**中文翻译**和**逐词语法拆解**。  
 > 不装虚拟声卡、不依赖 ffmpeg、音频不出本机，全部在你自己的电脑上跑完。
@@ -51,8 +51,6 @@
 
 ## 效果预览
 
-> 📷 **TODO**：把你的界面截图放到 `docs/screenshot.png`，然后取消下面这行的注释。
-
 界面分三栏：左上日语原文、左下中文翻译、右侧当前句的语法拆解表（原词 / 读音 / 词性 / 意思 / 语法说明）。
 
 ---
@@ -83,7 +81,7 @@ ollama pull qwen3:14b                  # 翻译 + 语法解析（必需）
 ### 2. 运行
 
 ```bash
-git clone https://github.com/<your-github-username>/jp-realtime-translator.git
+git clone https://github.com/TakahashiRakka/jp-realtime-translator.git
 cd jp-realtime-translator
 ```
 
@@ -269,7 +267,4 @@ jp-realtime-translator/
 
 ## 许可证
 
-[MIT License](LICENSE) © 2026 <your-github-username>
-
-> 打包发布前，记得把 `<your-github-username>` 全局替换为你的 GitHub 用户名  
-> （涉及 `README.md`、`README_EN.md`、`LICENSE`、`.github/ISSUE_TEMPLATE/`）。
+[MIT License](LICENSE) © 2026 <TakahashiRakka>
