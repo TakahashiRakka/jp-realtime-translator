@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 使用问题 / 求助
+    url: https://github.com/<your-github-username>/jp-realtime-translator/discussions
+    about: 不确定是不是 bug、或者只是不会用？先来讨论区问。
+  - name: 📖 常见问题（FAQ）
+    url: https://github.com/<your-github-username>/jp-realtime-translator#常见问题-faq
+    about: 「连不上 Ollama」「抓不到声音」「识别不出字」等问题，这里大概率有答案。
+  - name: 🔐 报告安全漏洞
+    url: https://github.com/<your-github-username>/jp-realtime-translator/security/advisories
+    about: 请不要用公开 issue 报告安全漏洞，请通过 Security Advisories 私密提交。

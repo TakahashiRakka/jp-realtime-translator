@@ -1,0 +1,22 @@
+{
+  "_comment": "这是配置模板。首次运行会自动生成 config.json，也可复制本文件为 config.json 后修改。config.json 已在 .gitignore 中，不会被提交。",
+
+  "WHISPER_MODEL": "small",
+  "WHISPER_DEVICE": "cpu",
+  "WHISPER_COMPUTE_TYPE": "int8",
+  "ASR_ENGINE": "qwen3-asr",
+  "ASR_MODEL": "frozenlab/qwen3-asr:1.7b",
+  "SAMPLE_RATE": 16000,
+  "CHANNELS": 1,
+  "CHUNK_SECONDS": 4.0,
+  "OVERLAP_SECONDS": 0.0,
+  "WASAPI_DEVICE": "",
+  "LOOPBACK": true,
+  "OLLAMA_BASE_URL": "http://localhost:11434",
+  "QWEN_MODEL": "qwen3:14b",
+  "QWEN_TEMPERATURE": 0.3,
+  "QWEN_DISABLE_THINKING": true,
+  "AUTO_GRAMMAR": false,
+  "MOCK": false,
+  "EXPORT_DIR": ""
+}

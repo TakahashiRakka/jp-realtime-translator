@@ -1,0 +1,8 @@
+# 可选依赖：仅当 config.json 中 ASR_ENGINE = "whisper" 时才需要。
+#
+# 默认的 qwen3-asr 引擎（走本地 Ollama）不需要这个包，装它会多下载上百 MB。
+# 要使用 whisper 引擎，请在设置面板把「ASR 引擎」改为 whisper 后执行：
+#     pip install -r requirements-whisper.txt
+#
+# 模型权重会在首次使用时自动下载到 models/ 目录（small 约 460MB，走 hf-mirror.com 镜像）。
+faster-whisper>=1.0

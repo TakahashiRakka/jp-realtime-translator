@@ -1,0 +1,106 @@
+name: Bug 报告
+description: 报告一个运行错误或异常行为
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        提交前请先确认：
+        - 已搜索过现有 issue（含已关闭的）
+        - 已更新到最新代码
+        - 已看过 [README 常见问题](https://github.com/<your-github-username>/jp-realtime-translator#常见问题-faq)
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 问题现象
+      description: 你期望发生什么，实际发生了什么？
+      placeholder: 点「开始」后电平表一直不动，日语栏没有任何输出。
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤
+      description: 一步一步写清楚，让别人能照着做出来。
+      placeholder: |
+        1. 双击 run.bat
+        2. 设备选择「扬声器 (Realtek)」
+        3. 播放 bilibili 上的日语视频
+        4. 点击「开始」
+        5. 等待 20 秒
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 完整报错信息
+      description: 请粘贴终端里的完整堆栈，不要只截最后一行。
+      render: shell
+    validations:
+      required: false
+
+  - type: input
+    id: os
+    attributes:
+      label: 系统版本
+      placeholder: Windows 11 23H2 (22631.3593)
+    validations:
+      required: true
+
+  - type: input
+    id: python-version
+    attributes:
+      label: Python 版本
+      description: 执行 `python --version` 的输出
+      placeholder: 3.13.9
+    validations:
+      required: true
+
+  - type: input
+    id: ollama-version
+    attributes:
+      label: Ollama 版本
+      description: 执行 `ollama --version` 的输出
+      placeholder: 0.6.2
+    validations:
+      required: false
+
+  - type: input
+    id: models
+    attributes:
+      label: 使用的模型
+      placeholder: ASR: frozenlab/qwen3-asr:1.7b ｜ 翻译: qwen3:14b
+    validations:
+      required: false
+
+  - type: input
+    id: asr-engine
+    attributes:
+      label: ASR 引擎
+      placeholder: qwen3-asr 或 whisper
+    validations:
+      required: false
+
+  - type: textarea
+    id: config
+    attributes:
+      label: 改动过的配置项
+      description: config.json 中你手动改过的内容。**请删除设备名等隐私信息。**
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 确认项
+      options:
+        - label: 我已搜索过现有 issue，确认没有重复
+          required: true
+        - label: 我已阅读过 README 的常见问题部分
+          required: true
+        - label: 这是用最新代码复现出来的问题
+          required: true

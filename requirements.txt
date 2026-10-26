@@ -1,0 +1,6 @@
+# 核心依赖：默认的 qwen3-asr 引擎（走本地 Ollama）只需要这两个。
+numpy>=1.24          # 音频缓冲与 WAV 编码，1.24+ / 2.x 均已验证
+soundcard>=0.4.2     # Windows WASAPI 回环采集（捕获系统正在播放的声音）
+
+# 若要把 ASR_ENGINE 切到 whisper，再额外安装：
+#     pip install -r requirements-whisper.txt
